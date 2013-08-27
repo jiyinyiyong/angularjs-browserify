@@ -3,7 +3,6 @@
  * (c) 2010-2012 Google, Inc. http://angularjs.org
  * License: MIT
  */
-(function(window, document, undefined) {
 'use strict';
 
 ////////////////////////////////////
@@ -62,7 +61,7 @@ var /** holds major version number for IE or NaN for real browsers */
     toString          = Object.prototype.toString,
 
     /** @name angular */
-    angular           = window.angular || (window.angular = {}),
+    angular           = exports.angular || (exports.angular = {}),
     angularModule,
     nodeName_,
     uid               = ['0', '0', '0'];
@@ -15154,5 +15153,4 @@ var styleDirective = valueFn({
     angularInit(document, bootstrap);
   });
 
-})(window, document);
 angular.element(document).find('head').append('<style type="text/css">@charset "UTF-8";[ng\\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak{display:none !important;}ng\\:form{display:block;}</style>');

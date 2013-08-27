@@ -1,0 +1,22 @@
+{
+  "name": "angularjs-browserify",
+  "version": "1.0.8",
+  "description": "angularjs browserify.",
+  "main": "angular.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jiyinyiyong/angularjs-browserify.git"
+  },
+  "keywords": [
+    "angular",
+    "browserify"
+  ],
+  "author": "jiyinyiyong, btford",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jiyinyiyong/angularjs-browserify/issues"
+  }
+}
